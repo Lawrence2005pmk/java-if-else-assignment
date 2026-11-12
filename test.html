@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 1,Check whether a number is divisible by 3 and 5
+2,Check whether a student passed in either subject
+let maths=35
+let science=20
+3,Login validation:
+let username='admin'
+let password='12345'
+4,Check whether a username is either "admin" or "manager".
+5,Check whether a person is eligible for a senior citizen discount (age 60 or above). -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let num = 195;
+        if (num % 3 == 0 && num % 5 == 0) {
+            console.log("divisable by 3 and 5")
+        }
+        else {
+            console.log("not divisable 3 and 5")
+        }
+        //
+        let maths = 35;
+        let science = 20;
+
+        if (maths >= 35 || science >= 35) {
+            console.log("pass");
+        }
+        else {
+            console.log("fail");
+        }
+        // 
+        let username = "admin";
+        let password = "12345";
+        if (username == "admin" && password == "12345") {
+            console.log("succesfully login")
+        }
+        else {
+            console.log("invaild user and password")
+        }
+        // 
+        let usernames = "admin";
+        if (usernames == "admin" || usernames == "manager") {
+            console.log("valid username")
+        }
+        else {
+            console.log("invailid username")
+        }
+        //
+        let age = 70;
+        if (age >= 60) {
+            console.log("you are eligible for senior citizen discount ")
+        }
+        else {
+            console.log("you are not eligible for senior citizen discount")
+        }
+    </script>
+
+
+</body>
+
+</html>
